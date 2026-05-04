@@ -62,4 +62,25 @@ window.courseworkCourses = [
       },
     ],
   },
+  {
+    id: "computational-systems-biology",
+    title: {
+      zh: "计算系统生物学",
+      en: "Computational Systems Biology",
+    },
+    subtitle: {
+      zh: "2026 春季学期",
+      en: "Spring 2026",
+    },
+    description: {
+      zh: "项目总结与相关作业文件。",
+      en: "Project summaries and related assignment files.",
+    },
+    entries: [
+      {
+        title: "2026 Spring CSB hw1",
+        file: "hw1.pdf",
+      },
+    ],
+  },
 ];
