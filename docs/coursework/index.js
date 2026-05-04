@@ -58,8 +58,8 @@ function renderCourseEntries(course) {
 
   (course.entries || []).forEach((item) => {
     const li = document.createElement("li");
-    // Keep original file names unchanged in UI.
-    li.innerHTML = `<a href="${item.file}" target="_blank" rel="noopener noreferrer">${item.file}</a>`;
+    const displayName = item.title || item.file;
+    li.innerHTML = `<a href="${item.file}" target="_blank" rel="noopener noreferrer">${displayName}</a>`;
     list.appendChild(li);
   });
 }
