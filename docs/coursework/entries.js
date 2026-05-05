@@ -78,8 +78,20 @@ window.courseworkCourses = [
     },
     entries: [
       {
+        title: "2026 Spring CSB hw1",
+        file: "Homework1.pdf",
+      },
+      {
         title: "2026 Spring CSB hw1 solution",
         file: "hw1.pdf",
+      },
+      {
+        title: "2026 Spring CSB hw2",
+        file: "Homework2.pdf",
+      },
+      {
+        title: "2026 Spring CSB hw2 solution",
+        file: "hw2.pdf",
       },
     ],
   },
