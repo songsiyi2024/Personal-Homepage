@@ -138,4 +138,29 @@ window.courseworkCourses = [
       },
     ],
   },
+  {
+    id: "foundations-of-machine-learning",
+    title: {
+      zh: "机器学习基础",
+      en: "Foundations of Machine Learning",
+    },
+    subtitle: {
+      zh: "2026 春季学期",
+      en: "Spring 2026",
+    },
+    description: {
+      zh: "作业",
+      en: "Homework",
+    },
+    entries: [
+      {
+        title: "2026 Spring FML Homework1",
+        file: "FML26Spring-Homework-1.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework1 Solution",
+        file: "FMLHW1.pdf",
+      },
+    ],
+  },
 ];
