@@ -41,6 +41,7 @@
             <a href="coursework.html" data-i18n="nav-coursework">课程作业</a>
             <a href="gaokao.html" data-i18n="nav-gaokao">高考解答</a>
             <a href="running.html" data-i18n="nav-running">跑步记录</a>
+            <a href="english-tests.html" data-i18n="nav-english-tests">英语测试记录</a>
           </div>
         </div>
         <a href="contact.html" class="pill" data-i18n="nav-contact">联系我</a>
@@ -184,6 +185,42 @@
         </div>
       </section>
 
+      <section id="english-tests" class="running english-tests container section-reveal">
+        <div class="section-head running-head">
+          <div>
+            <h2 data-i18n="idx-engtest-h2">英语测试记录</h2>
+            <p class="section-copy" data-i18n="idx-engtest-copy">
+              用这个版块记录每次英语考试、阶段模拟和下一次想冲击的目标分数。
+            </p>
+          </div>
+          <div class="running-head-actions">
+            <a href="english-tests.html" class="text-link" data-i18n="idx-engtest-viewall">查看全部</a>
+          </div>
+        </div>
+
+        <div class="running-layout">
+          <article class="card running-overview english-test-overview">
+            <p class="running-kicker" data-i18n="idx-engtest-kicker">阶段概览</p>
+            <h3 data-i18n="idx-engtest-overview-title">把每一次英语测试整理成连续档案</h3>
+            <p data-i18n="idx-engtest-overview-desc">
+              现在先放一个可编辑模板，后续你只要补充考试名称、时间、分数和备注，就能持续累积自己的英语学习记录。
+            </p>
+            <div class="running-stat-grid">
+              <div class="running-stat" data-stat="finished">
+                <span>累计完成</span>
+                <strong>待更新</strong>
+              </div>
+              <div class="running-stat" data-stat="next">
+                <span>下一目标</span>
+                <strong>待更新</strong>
+              </div>
+            </div>
+          </article>
+
+          <div class="race-list" id="home-english-test-list" data-limit="2"></div>
+        </div>
+      </section>
+
       <section id="contact" class="contact container section-reveal">
         <h2 data-i18n="idx-contact-h2">联系我</h2>
         <p data-i18n="idx-contact-email">邮箱：songsiyi_2024@outlook.com</p>
@@ -198,6 +235,7 @@
     <script src="data-projects.js"></script>
     <script src="data-articles.js"></script>
     <script src="data-running.js"></script>
+    <script src="data-english-tests.js"></script>
     <script src="data-calendar.js"></script>
     <script src="docs/coursework/entries.js"></script>
     <script src="docs/gaokao-math/entries.js"></script>

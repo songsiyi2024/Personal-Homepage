@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="宋思逸 的项目作品" />
-    <title data-i18n="title-projects">项目 | 宋思逸</title>
+    <meta name="description" content="宋思逸 的英语测试记录" />
+    <title data-i18n="title-english-tests">英语测试记录 | 宋思逸</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,12 +47,38 @@
     </header>
 
     <main class="container">
-      <section class="projects section-reveal">
-        <div class="section-head">
-          <h2 data-i18n="prj-h2">全部项目</h2>
-          <a href="index.html" class="text-link" data-i18n="prj-back">返回首页</a>
+      <section class="running english-tests section-reveal">
+        <div class="section-head running-head">
+          <div>
+            <h2 data-i18n="engtest-h2">全部英语测试记录</h2>
+            <p class="hero-copy" data-i18n="engtest-copy">
+              这个页面集中展示你的英语测试记录。后续只需要继续补充新的测试卡片，就能把它维护成长期可追踪的成绩档案。
+            </p>
+          </div>
+          <a href="index.html" class="text-link" data-i18n="engtest-back">返回首页</a>
         </div>
-        <div class="project-grid" id="project-list"></div>
+
+        <div class="running-layout">
+          <article class="card running-overview english-test-overview">
+            <p class="running-kicker" data-i18n="idx-engtest-kicker">阶段概览</p>
+            <h3 data-i18n="engtest-overview-title">把每一次英语测试沉淀成连续记录</h3>
+            <p data-i18n="engtest-overview-desc">
+              你可以把已完成的考试、正在准备的目标测试和每次测试后的复盘都放在这里，形成清晰的英语学习时间线。
+            </p>
+            <div class="running-stat-grid">
+              <div class="running-stat" data-stat="finished">
+                <span>累计完成</span>
+                <strong>待更新</strong>
+              </div>
+              <div class="running-stat" data-stat="next">
+                <span>下一目标</span>
+                <strong>待更新</strong>
+              </div>
+            </div>
+          </article>
+
+          <div class="race-list" id="english-test-list"></div>
+        </div>
       </section>
     </main>
 

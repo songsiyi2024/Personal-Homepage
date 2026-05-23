@@ -1,0 +1,32 @@
+window.englishTestEntries = [
+  {
+    id: "2026-cet6-june",
+    type: { zh: "大学英语六级", en: "CET-6" },
+    title: { zh: "2026年6月全国大学英语六级考试", en: "CET-6 June 2026" },
+    date: "2026.6.15",
+    scoreText: { zh: "目标 560+", en: "Target 560+" },
+    score: null,
+    note: { zh: "备考中", en: "In preparation" },
+    status: "planned",
+  },
+  {
+    id: "2025-cet4-dec",
+    type: { zh: "大学英语四级", en: "CET-4" },
+    title: { zh: "2025年12月全国大学英语四级考试", en: "CET-4 December 2025" },
+    date: "2025.12.14",
+    scoreText: { zh: "548 / 710", en: "548 / 710" },
+    score: 548,
+    note: { zh: "首考通过", en: "First attempt passed" },
+    status: "finished",
+  },
+  {
+    id: "2025-mock-sep",
+    type: { zh: "英语模拟测试", en: "Mock Test" },
+    title: { zh: "2025年9月英语阶段模拟测试", en: "English Mock Test September 2025" },
+    date: "2025.9.22",
+    scoreText: { zh: "532 / 710", en: "532 / 710" },
+    score: 532,
+    note: { zh: "听力提升明显", en: "Listening improved" },
+    status: "finished",
+  },
+];
