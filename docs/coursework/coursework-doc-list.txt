@@ -6,6 +6,7 @@
 - 2026-spring-data-structure-project-summary.pdf
 
 建议每次新增文档后：
-1. 把文件放在 docs/coursework/ 目录
-2. 在 coursework.html 新增或更新一张文档卡片
-3. 补充发布日期与简要说明
+1. 先按课程名称在 docs/coursework/ 下创建或使用对应子文件夹
+2. 把文件放在该课程子文件夹中
+3. 在 docs/coursework/entries.js 中给对应课程新增或更新一条文件记录
+4. 补充发布日期与简要说明

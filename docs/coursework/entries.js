@@ -16,7 +16,7 @@ window.courseworkCourses = [
     entries: [
       {
         title: "2026 Spring Calculus Homework 01",
-        file: "2026-spring-calculus-homework-01.pdf",
+        file: "mathematical-analysis/2026-spring-calculus-homework-01.pdf",
       },
     ],
   },
@@ -37,7 +37,7 @@ window.courseworkCourses = [
     entries: [
       {
         title: "2026 Spring Linear Algebra Lab Report 01",
-        file: "2026-spring-linear-algebra-lab-report-01.pdf",
+        file: "linear-algebra/2026-spring-linear-algebra-lab-report-01.pdf",
       },
     ],
   },
@@ -58,7 +58,7 @@ window.courseworkCourses = [
     entries: [
       {
         title: "2026 Spring Data Structure Project Summary",
-        file: "2026-spring-data-structure-project-summary.pdf",
+        file: "data-structure/2026-spring-data-structure-project-summary.pdf",
       },
     ],
   },
@@ -79,41 +79,47 @@ window.courseworkCourses = [
     entries: [
       {
         title: "2026 Spring CSB hw1",
-        file: "CSBHomework1.pdf",
+        file: "computational-systems-biology/CSBHomework1.pdf",
       },
       {
         title: "2026 Spring CSB hw1 solution",
-        file: "CSBhw1.pdf",
+        file: "computational-systems-biology/CSBhw1.pdf",
       },
       {
         title: "2026 Spring CSB hw2",
-        file: "CSBHomework2.pdf",
+        file: "computational-systems-biology/CSBHomework2.pdf",
       },
       {
         title: "2026 Spring CSB hw2 solution",
-        file: "CSBhw2.pdf",
+        file: "computational-systems-biology/CSBhw2.pdf",
       },
       {
         title: "2026 Spring CSB hw3",
-        file: "CSBHomework3.pdf",
+        file: "computational-systems-biology/CSBHomework3.pdf",
       },
       {
         title: "2026 Spring CSB hw3 solution",
-        file: "CSBhw3.pdf",
-      },{
+        file: "computational-systems-biology/CSBhw3.pdf",
+      },
+      {
         title: "2026 Spring CSB hw4",
-        file: "CSBHomework4.pdf",
+        file: "computational-systems-biology/CSBHomework4.pdf",
       },
       {
         title: "2026 Spring CSB hw4 solution",
-        file: "CSBhw4.pdf",
-      },{
+        file: "computational-systems-biology/CSBhw4.pdf",
+      },
+      {
         title: "2026 Spring CSB hw5",
-        file: "CSBHomework5.pdf",
+        file: "computational-systems-biology/CSBHomework5.pdf",
       },
       {
         title: "2026 Spring CSB hw5 solution",
-        file: "CSBhw5.pdf",
+        file: "computational-systems-biology/CSBhw5.pdf",
+      },
+      {
+        title: "2026 Spring CSB pre",
+        file: "computational-systems-biology/CSBpre.pdf",
       },
     ],
   },
@@ -134,7 +140,7 @@ window.courseworkCourses = [
     entries: [
       {
         title: "2026 Spring University-level Chinese Homework",
-        file: "UChw.pdf",
+        file: "university-level-chinese/UChw.pdf",
       },
     ],
   },
@@ -155,11 +161,11 @@ window.courseworkCourses = [
     entries: [
       {
         title: "2026 Spring FML Homework1",
-        file: "FML26Spring-Homework-1.pdf",
+        file: "foundations-of-machine-learning/FML26Spring-Homework-1.pdf",
       },
       {
         title: "2026 Spring FML Homework1 Solution",
-        file: "FMLHW1.pdf",
+        file: "foundations-of-machine-learning/FMLHW1.pdf",
       },
     ],
   },
