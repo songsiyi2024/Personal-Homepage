@@ -623,6 +623,60 @@ function createEl(tag, className, text) {
   return el;
 }
 
+function parseEntryDate(dateValue) {
+  const raw = typeof dateValue === "object" ? dateValue?.zh || dateValue?.en || "" : String(dateValue || "");
+  const matched = raw.match(/^(\d{4})[./-](\d{1,2})[./-](\d{1,2})$/);
+
+  if (!matched) {
+    return null;
+  }
+
+  const year = Number(matched[1]);
+  const month = Number(matched[2]);
+  const day = Number(matched[3]);
+  const parsed = new Date(year, month - 1, day);
+
+  if (
+    Number.isNaN(parsed.getTime()) ||
+    parsed.getFullYear() !== year ||
+    parsed.getMonth() !== month - 1 ||
+    parsed.getDate() !== day
+  ) {
+    return null;
+  }
+
+  return parsed;
+}
+
+function getNearestPlannedEntry(entries) {
+  const today = new Date();
+  const todayMidnight = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const plannedEntries = entries.filter((item) => item.status === "planned");
+  let nearest = null;
+  let nearestDate = null;
+  let minDiff = Number.POSITIVE_INFINITY;
+
+  plannedEntries.forEach((entry) => {
+    const entryDate = parseEntryDate(entry.date);
+    if (!entryDate) {
+      return;
+    }
+
+    const diff = Math.abs(entryDate.getTime() - todayMidnight.getTime());
+    const shouldReplace =
+      diff < minDiff ||
+      (diff === minDiff && nearestDate && nearestDate < todayMidnight && entryDate >= todayMidnight);
+
+    if (shouldReplace || !nearest) {
+      nearest = entry;
+      nearestDate = entryDate;
+      minDiff = diff;
+    }
+  });
+
+  return nearest || plannedEntries[0] || null;
+}
+
 function getCalendarEntries() {
   return Array.isArray(window.calendarEntries)
     ? [...window.calendarEntries].sort((left, right) => Number(left.order || 0) - Number(right.order || 0))
@@ -967,7 +1021,7 @@ function renderRunningStats() {
   const entries = Array.isArray(window.runningEntries) ? window.runningEntries : [];
   const finished = entries.filter((item) => item.status === "finished");
   const longest = finished.reduce((max, item) => Math.max(max, Number(item.distanceKm) || 0), 0);
-  const nextGoal = entries.find((item) => item.status === "planned");
+  const nextGoal = getNearestPlannedEntry(entries);
   const statItems = document.querySelectorAll(".running-overview:not(.english-test-overview) .running-stat[data-stat]");
 
   statItems.forEach((item) => {
