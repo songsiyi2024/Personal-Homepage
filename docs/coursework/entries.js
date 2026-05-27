@@ -167,6 +167,54 @@ window.courseworkCourses = [
         title: "2026 Spring FML Homework1 Solution",
         file: "foundations-of-machine-learning/FMLHW1.pdf",
       },
+      {
+        title: "2026 Spring FML Homework2",
+        file: "foundations-of-machine-learning/FML26Spring-Homework-2.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework2 Solution",
+        file: "foundations-of-machine-learning/FMLHW2.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework3",
+        file: "foundations-of-machine-learning/FML26Spring-Homework-3.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework3 Solution",
+        file: "foundations-of-machine-learning/FMLHW3.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework4",
+        file: "foundations-of-machine-learning/FML26Spring-Homework-4.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework4 Solution",
+        file: "foundations-of-machine-learning/FMLHW4.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework5",
+        file: "foundations-of-machine-learning/FML26Spring-Homework-5.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework5 Solution",
+        file: "foundations-of-machine-learning/FMLHW5.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework6",
+        file: "foundations-of-machine-learning/FML26Spring-Homework-6.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework6 Solution",
+        file: "foundations-of-machine-learning/FMLHW6.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework7",
+        file: "foundations-of-machine-learning/FML26Spring-Homework-7.pdf",
+      },
+      {
+        title: "2026 Spring FML Homework7 Solution",
+        file: "foundations-of-machine-learning/FMLHW7.pdf",
+      },
     ],
   },
 ];

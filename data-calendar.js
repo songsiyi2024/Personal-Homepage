@@ -2,19 +2,19 @@ window.calendarEntries = [
   {
     order: 1,
     time: {
-      zh: "2026 年 5 月上旬",
-      en: "Early May 2026",
+      zh: "2026 年 6 月",
+      en: "June 2026",
     },
     title: {
-      zh: "把近期计划页改成简洁的事项列表",
-      en: "Turn the plans page into a simpler item list",
+      zh: "期末复习与考试",
+      en: "Revision & Final Exam",
     },
     summary: {
-      zh: "保留每件事对应一个时间的写法，不再铺成完整日历。",
-      en: "Keep one item paired with one time instead of spreading everything across a full calendar.",
+      zh: "6.7-6.21",
+      en: "June 7th to June 21st",
     },
     status: "in-progress",
-    category: "website",
+    category: "exam",
   },
   {
     order: 2,

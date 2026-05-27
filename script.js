@@ -251,6 +251,7 @@ const translations = {
     "cal-category-timeline": "时间线",
     "cal-category-running": "跑步",
     "cal-category-study": "学习",
+    "cal-category-exam": "考试",
   },
   en: {
     "name-full": "Siyi Song",
@@ -503,6 +504,7 @@ const translations = {
     "cal-category-timeline": "Timeline",
     "cal-category-running": "Running",
     "cal-category-study": "Study",
+    "cal-category-exam": "Exam",
   },
 };
 
